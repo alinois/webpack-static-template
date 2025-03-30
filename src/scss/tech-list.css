@@ -1,0 +1,95 @@
+.main__tech-list__title {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    height: 56px;
+    max-width: 100vw;
+    background: linear-gradient(to right, #F8F8F8, #FFFFFF);
+    color: #7E7E82;
+    text-transform: uppercase;
+    margin-top: 45px;
+    border-top: solid 1px #D9FFF5;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.main__tech-list__objects.open #tech-more::after {
+    content: 'Скрыть все';
+}
+
+.main__tech-list__objects.open .tech-button-arrows {
+    transform: rotate(-180deg);
+    content: 'Скрыть все';
+}
+
+.main__tech-list__objects {
+    width: 100;
+}
+
+.main__tech-list__objects ul {
+    overflow: hidden;
+    display: flex;
+    height: 150px;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-between;
+    padding: 0;
+    margin: 25px 30px;
+    transition: height 0.5s ease-in-out;
+}
+
+.main__tech-list__objects.open ul {
+    height: 300px;
+}
+
+.tech-slide {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    width: 198px;
+    height: 118px;
+    background-color: #FFFFFF;
+    border: solid 1px #EAEAEA;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.tech-slide-name {
+    height: 50%;
+    display: flex;
+    width: 100%;
+}
+
+.next {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.next:hover {
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.fix-tech-block {
+    visibility: hidden;
+}
+
+.tech-button-arrows {
+    transition: all 0.5s ease-in-out;
+}
+
+#tech-more {
+    position: relative;
+    display: flex;
+    width: 150px;
+    align-items: center;
+    background-color: transparent;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#tech-more::after {
+    content: 'Показать все';
+}

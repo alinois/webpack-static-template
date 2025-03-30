@@ -1,0 +1,135 @@
+.main__brand-list__title {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    height: 56px;
+    max-width: 100vw;
+    background: linear-gradient(to right, #F8F8F8, #FFFFFF);
+    color: #7E7E82;
+    text-transform: uppercase;
+    border-top: solid 1px #D9FFF5;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.main__brand-list__objects ul {
+    height: 165px;
+    overflow: hidden;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    margin: 25px 30px;
+    transition: height 0.5s ease-in-out;
+}
+
+.main__brand-list__objects.open #brands-more::after {
+    content: 'Скрыть все';
+}
+
+.main__brand-list__objects.open ul {
+    height: 250px;
+}
+
+.main__brand-list__objects.open .brands-button-arrows {
+    transform: rotate(-180deg);
+    content: 'Скрыть все';
+}
+
+.brand-slide {
+    padding: 10px 20px;
+    display: flex;
+    width: 198px;
+    height: 50px;
+    background-color: #FFFFFF;
+    border: solid 1px #EAEAEA;
+    border-radius: 8px;
+    flex-shrink: 0;
+    justify-content: space-between;
+}
+
+.brand-logo {
+    width: 60%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 100%;
+    background-size: contain;
+}
+
+.arrow-next {
+    background-image: url("/src/img/icons/go.svg");
+    width: 25%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.arrow-next:hover {
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.lenovo {
+    background-image: url("/src/img/br-log/lenovo.png");
+}
+
+.samsung {
+    background-image: url("/src/img/br-log/samsung.png");
+}
+
+.apple {
+    background-image: url("/src/img/br-log/apple.png");
+    background-size: 40%;
+}
+
+.vs {
+    background-image: url("/src/img/br-log/ViewSonic.png");
+}
+
+.bosch {
+    background-image: url("/src/img/br-log/bosch.png");
+}
+
+.hp {
+    background-image: url("/src/img/br-log/hp.png");
+    background-size: 50%;
+}
+
+.acer {
+    background-image: url("/src/img/br-log/acer.png");
+}
+
+.sony {
+    background-image: url("/src/img/br-log/sony.png");
+}
+
+.sony-slide {
+    position:relative;
+    left: -10px;
+    transform: scale(90%);
+}
+
+.apple-slide {
+    transform: scale(130%);
+}
+
+.brands-button-arrows {
+    transition: all 0.5s ease-in-out;
+}
+
+#brands-more {
+    position: relative;
+    display: flex;
+    width: 150px;
+    align-items: center;
+    background-color: transparent;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#brands-more::after {
+    content: 'Показать все';
+}

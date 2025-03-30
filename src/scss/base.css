@@ -1,0 +1,32 @@
+body {
+    margin: 0px 0px;
+    font-family: 'TT Lakes regular';
+    font-weight: normal;
+    font-size: 16px;
+    background-color: #F8F8F8;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+  }
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    display: flex;
+    flex-wrap: nowrap;
+    font-family: 'TT Lakes medium';
+    font-weight: normal;
+    font-size: 16px;
+    border: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+

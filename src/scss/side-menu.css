@@ -1,0 +1,296 @@
+
+/* заказ звонка и чат */
+
+.order-call,
+.feedback {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 440px;
+    height: 100vh;
+    background-color: white;
+    right: -100%;
+    top:0;
+    transition: right 0.5s ease-in-out;
+    border-left: solid 1px #D9FFF5;
+
+    box-shadow: 16px 0px 52px #0E185033,
+                -2px 0px 4px #454F7E05;;
+}
+
+.order-call.open {
+    right: 0;
+}
+
+.feedback,
+.order-call {
+    z-index: 6;
+}
+
+.order-call__header,
+.feedback__header {
+    position: relative;
+    right: 40px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1B1C21;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+#order-cros,
+#feed-cros {
+    position: relative;
+    right: 25px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.order-call__main,
+.feedback__main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.order-call__main input::placeholder,
+.feedback__main input::placeholder {
+    display: flex;
+    color: #B5B6BC;
+    padding-left: 10px;
+}
+
+.order-call__main input,
+.feedback__main input {
+    font-family: 'TT Lakes Regular';
+    font-weight: normal;
+    font-size: 16px;
+    width: 376px;
+    min-height: 48px;
+    border: solid 1px #EAEAEA;
+    border-radius: 8px;
+}
+
+.order-call__main input:last-child {
+    min-height: 118px;
+}
+
+.order-call__main input:last-child::placeholder {
+    position: relative;
+    bottom: 30px
+}
+
+.order-call__annat,
+.feedback__annat {
+    font-size: 14px ;
+    font-weight: normal;
+    margin: 15px 32px;
+    color: #7E7E82 ;
+    margin-bottom: 15px;
+}
+
+.order-call__annat a,
+.feedback__annat a {
+    color: #FF3E79 ;
+    cursor: pointer;
+}
+
+.order-call__title-text,
+.feedback__title-text{
+    padding-left: 29px;
+}
+
+.send {
+    position: relative;
+    left: 235px;
+    margin: 0px 32px;
+    background-color: transparent;
+    width: 132px;
+    height: 36px;
+    cursor: pointer;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.send:hover {
+    opacity: 70%;
+}
+
+.feedback.open {
+    right: 0;
+}
+
+.fog {
+    z-index: 3;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    transition: opacity 0.15s ease-in-out;
+}
+
+.fog.show {
+    visibility: visible;
+    opacity: 90%;
+    transition: 0.5s;
+}
+
+.fog.hidden {
+    visibility: hidden;
+    opacity: 0%;
+    transition: 0.5s;
+}
+
+.fog2 {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    transition: opacity 0.15s ease-in-out;
+    z-index: 5;
+}
+
+.fog2.show {
+    visibility: visible;
+    opacity: 90%;
+    transition: 0.5s;
+}
+
+.fog2.hidden {
+    visibility: hidden;
+    opacity: 0%;
+    transition: 0.5s;
+}
+
+.side-menu {
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: -100%;
+    width: 320px;
+    height: 100vh;
+    background-color: white;
+    transition: left 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+.side-menu.open {
+    left: 0;
+    box-shadow: 16px 0px 52px #0E185033,
+                -2px 0px 4px #454F7E05;
+}
+
+.side-menu button {
+    background-color: white;
+}
+
+.side-menu button:hover {
+    cursor: pointer;
+}
+
+.menu-header {
+    height:  10%;
+    display: flex;
+}
+
+.menu-header__nav {
+    width: 320px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 0px 25px;
+    margin-top: 15px;
+}
+
+.icon-nav {
+    transition: opacity 0.25s ease-in-out; 
+}
+
+.icon-nav:hover {
+    opacity: 70%;
+    transition: 0.25s ease-in-out;
+}
+
+.search{
+    margin-left: auto;
+}
+
+.img-search {
+    padding-left: 45px;
+}
+
+.menu-main {
+    height: 70%;
+    display: flex;
+}
+
+.menu-main__nav {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding-left: 25px;
+    gap: 35px;
+}
+
+.menu-btn {
+    transition: color 0.5s, padding 0.25s;
+}
+
+.menu-btn:hover {
+    padding-left: 15px;
+    color: #FF3E79;
+    transition: 0.25s ease-in-out;
+}
+
+.active-btn {
+    display: flex;
+    align-items: center;
+    margin-left: -31px;
+}
+
+.menu-footer {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding-left: 25px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.icons-commun {
+    display: flex;
+    gap: 15px;
+}
+
+.phone-num {
+    font-family: 'TT Lakes bold';
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.language {
+    display: flex;
+    margin-top: 35px;
+    gap: 10px;
+}
+
+.lan-btn {
+    transition: color 0.25s ease-in-out;
+}
+
+.lan-btn:hover {
+    color: gray;
+    transition: 0.25s ease-in-out;
+}
+
+.btn-txt {
+    margin-left: 25px;
+    color: gray
+}

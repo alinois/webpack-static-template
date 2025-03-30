@@ -1,0 +1,45 @@
+header {
+    position:relative;
+    z-index: 2;
+}
+
+.header {
+    display: block;
+    background-color: #FFFFFF;
+    height: 88px;
+    border-bottom: 1px solid #B8FFEC;
+}
+
+.header__imgs {
+    height: 88px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 15px;
+} 
+
+.header__imgs__menu {
+    width: 100%;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 15px;
+}
+
+.header__imgs__feedback {
+    width: 100%;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 15px;    
+}
+
+.header__imgs__feedback__comun {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 15px;    
+}

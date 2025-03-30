@@ -1,17 +1,14 @@
-$bgColor: #24292e;
-$text: #fff;
+@import '../../node_modules/swiper/swiper-bundle.css';
+@import '../../node_modules/swiper/modules/pagination.css';
 
-@font-face {
-  font-family: 'Comic';
-  src: url('../fonts/comic.ttf') format('truetype');
-  font-weight: normal;
-  font-style: italic;
-}
-
-body {
-  padding: 1rem;
-  margin: 0;
-  font-family: Comic, sans-serif;
-  background-color: $bgColor;
-  color: $text;
-}
+@import 'fonts.css';
+@import 'header.css';
+@import 'side-menu.css';
+@import 'main.css';
+@import 'brand-list.css';
+@import 'tech-list.css';
+@import 'price-table.css';
+@import 'swipers.css';
+@import 'footer.css';
+@import 'media.css';
+@import 'base.css';

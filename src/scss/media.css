@@ -1,0 +1,400 @@
+@media (min-width: 320px) {
+
+    .content-card-price,
+    .content-card-tech,
+    .content-card-brand,
+    .main__price__get,
+    .main__pride__descr,
+    .main__price__title,
+    .main__tech-list__title,
+    .main__brand-list__title {
+        margin-left: 15px;
+    }
+
+    .footer__command {
+        max-width: 100%;
+    }
+
+    .footer {
+    flex-direction: column;
+  }
+
+  .footer__command {
+    margin-top: 15px;
+  }
+
+    .footer__command,
+    .footer__politic,
+    .footer__info {
+        max-width: 100vw;
+        text-align: center;
+        padding: 0;
+        margin-bottom: 15px;
+    }
+
+    #read-more {
+        left: -5px;
+        margin: 15px 0;
+    }
+
+    .main {
+        position:absolute;
+        left: -320px;
+    } 
+    
+    .second-phar
+    .third-phar {
+        display: none;
+    }
+
+    .main__blog {
+        flex-flow: column wrap;
+    }
+
+    .last-pic {
+        display: none;
+    }
+
+    .second-phar,
+    .third-phar {
+        display: none;
+    }
+
+    .header__imgs__feedback__comun {
+        display: none;
+    }
+
+    .title-name {
+        padding-left: 5px;
+    }
+
+    .main__blog {
+        max-width: 100vw;
+        flex-direction: row;
+    }
+
+    .main__blog__article {
+        padding: 0px 15px;
+        width: 100vw;
+        height: auto;
+    }
+
+    .main__blog__mini-pic {
+        padding: 0;
+        width: 100vw;
+    }
+
+    .main__slider__ul {
+        max-width: 100vw;
+        overflow: scroll;
+        padding-inline-start: 15px;
+    }
+
+    .order-call,
+    .feedback {
+        width: 320px;
+        height: 100vh;
+        right: -150%;
+    }
+
+    .order-call__main input,
+    .feedback__main input {
+        width: 288px;
+        min-height: 48px;
+    }
+
+    .order-call__annat,
+    .feedback__annat {
+        margin: 15px 16px;
+        color: #7E7E82 ;
+        margin-bottom: 15px;
+    }
+
+    .send {
+        left: 145px;
+        margin: 0px 16px;
+    }
+
+    .order-call__header,
+    .feedback__header {
+        margin-top: 80px;
+    }
+
+    .order-call__title-text,
+    .feedback__title-text {
+        padding-left: 12px;
+    }
+
+    #order-cros,
+    #feed-cros {
+        right: -60px;
+        bottom: 60px;
+    }
+
+    .main__brand-swiper {
+        display: flex;
+    }
+
+    .main__price__table,
+    .main__tech-list__objects,
+    .main__brand-list__objects {
+        display: none;
+    }
+
+    
+}
+
+@media (min-width: 768px) {
+
+    .footer__command,
+    .footer__politic,
+    .footer__info {
+        max-width: 100vw;
+        text-align: center;
+        padding: 0;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }    
+    
+    .footer__command {
+        margin-left: 30px;
+    }
+
+    .footer__info {
+        margin-right: 30px;
+    }
+
+    .content-card-price,
+    .content-card-tech,
+    .content-card-brand,
+    .main__price__get,
+    .main__pride__descr,
+    .main__price__title,
+    .main__tech-list__title,
+    .main__brand-list__title {
+        max-width: 100vw;
+        margin-left: 30px;
+    }
+
+    .main__pride__descr {
+        margin-top: 15px;
+    }
+
+    .main__price__title {
+        margin-bottom: 15px;
+    }
+
+    .footer {
+        flex-direction: row;
+    }
+
+    .footer__command {
+        width: 33%;
+        text-align: left;
+      }
+    
+      .footer__politic {
+        text-align: start;
+        width: 33%;
+        transition: color 0.3s ease-in-out;
+      }
+      
+      .footer__info {
+        width: 33%;
+        text-align: right;
+      }
+
+    .row3 {
+        padding-left: 0;
+    }
+
+    .main__price__table {
+        display: grid;
+    }
+
+    .main__tech-list__objects,
+    .main__brand-list__objects {
+        display: block;
+        max-width: 100vw;
+    }
+
+    .main__price-swiper,
+    .main__tech-swiper,
+    .main__brand-swiper {
+        display: none;
+    }
+
+    .brand-slide {
+        width: 182px;
+    }
+
+    .order-call__header,
+    .feedback__header {
+        margin-top: 25px;
+    }
+
+    .order-call__title-text,
+    .feedback__title-text {
+        padding-left: 29px;
+    }
+
+    #order-cros,
+    #feed-cros {
+        right: 25px;
+        bottom: 0px;
+    }
+
+    .order-call,
+    .feedback {
+        width: 440px;
+        height: 100vh;
+    }
+
+    .order-call__main input,
+    .feedback__main input{
+        width: 376px;
+        min-height: 48px;
+    }
+
+    .order-call__annat,
+    .feedback__annat{
+        margin: 15px 32px;
+    }
+
+    .send {
+        left: 235px;
+        margin: 0px 32px;
+    }
+
+    .header__imgs__feedback__comun {
+        display: flex;
+    }
+
+    .last-pic {
+        display: flex;
+    }
+
+    .title-name {
+        padding-left: 15px;
+    }
+
+    .main__blog__article {
+        width: 45%;
+        height: auto;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    .second-phar {
+        display: inline;
+    }
+
+    .main__blog {
+        max-width: 100vw;
+        padding: 0px 30px;
+        flex-direction: row;
+        margin-bottom: 40px;
+    }
+
+    .main__blog__mini-pic {
+        display: none;
+    }
+
+    .third-phar {
+        display: none;
+    }
+
+    .last-pic {
+        display: flex;
+        width: 50vw;
+        margin-left: auto;
+    }
+
+    #read-more {
+        margin: 0 ;
+        left: -15px;
+        margin-top: 10px;
+    }
+
+    .tech-slide {
+        width: 182px;
+        height: 118px;
+    }
+    
+
+}
+
+@media (min-width: 1085px) {
+
+    .main__pride__descr{
+        margin-top: 25px;
+        width: 40% ;
+    }
+
+    .tech-slide {
+        width: 198px;
+        height: 118px;
+    }
+
+    .header__imgs__feedback__comun {
+        display: none;
+    }
+
+    .last-pic {
+        display: flex;
+        width: 50%;
+        margin-left: auto;
+        padding-right: 0;
+    }
+    
+    .main {
+        width: 100%;
+        position: relative;
+        left: 0;
+    } 
+
+    .main__blog__article {
+        width: 45%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .main__slider__ul {
+        max-width: 100vw;
+        height: 80px;
+        flex-wrap: wrap;
+        overflow: visible;
+    }
+
+    .third-phar {
+        display: inline;
+    }
+
+    .main__banner__request {
+        width: 50%;
+        display: flex;
+        justify-content: end;
+        margin-right: 30px;
+    }
+
+    .side-menu {
+        left: 0;
+    }
+    
+    #cross {
+        display: none;
+    }
+}
+
+@media (min-width: 1130px) {
+
+    .brand-slide {
+        width: 198px;
+        height: 50px;
+    }
+    
+}

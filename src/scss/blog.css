@@ -1,0 +1,59 @@
+.main__blog {
+    display: flex;
+    flex-direction: column;
+    flex-flow: column wrap;
+    margin-top: 20px;
+}
+
+.main__blog.open .hidden-phar {
+    display: flex;
+}
+
+.main__blog.open .button-arrows {
+    transform: rotate(-180deg);
+}
+
+.main__blog.open #read-more::after {
+    content: 'Скрыть текст';
+    color: gray;
+}
+
+.main__blog__article {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.hidden-phar {
+    display: none;
+}
+
+.button-arrows {
+    transition: transform 0.5s;
+}
+
+#read-more {
+    position: relative;
+    left: -15px;
+    display: flex;
+    width: 150px;
+    align-items: center;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#read-more::after {
+    content: 'Читать далее';
+}
+
+.photo {
+    width: 100%;
+}
+
+.last-pic {
+    display: none;
+    width: 50%;
+    height: 100%;
+    margin-left: auto;
+   object-fit: contain; 
+}
+

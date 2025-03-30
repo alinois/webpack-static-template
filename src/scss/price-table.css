@@ -1,0 +1,214 @@
+.main__price {
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw ;
+}
+
+.main__price-swiper .swiper-pagination {
+    position: relative;
+    bottom: -10px;
+}
+
+.main__price__title {
+    display: flex;
+    align-items: center;
+    height: 56px;
+    max-width: 100vw ;
+    background: linear-gradient(to right, #F8F8F8, #FFFFFF);
+    color: #7E7E82;
+    text-transform: uppercase;
+    margin: 30px 0;
+    border-top: solid 1px #D9FFF5;
+}
+
+.table-header {
+    padding: 0 25px;
+    display: grid;
+    margin: 10px 30px;
+    background-color:#f8f8f8;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    grid-template-rows: 30px;
+    grid-template-areas:
+    "header-services header-price header-time empty"
+}
+
+.header-services {
+    grid-area: header-services;
+    background-color:#f8f8f8;
+    color: #7E7E82
+    
+}
+
+.header-price {
+    grid-area: header-price;
+    background-color:#f8f8f8;
+    color: #7E7E82
+}
+
+.header-time {
+    grid-area: header-time;
+    background-color:#f8f8f8;
+    color: #7E7E82
+}
+
+.header-empty {
+    grid-area: empty;
+    background-color:#f8f8f8;
+}
+
+.table-content {
+    display: grid;
+    margin: 10px 30px;
+    background-color: white;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(5, 70px);
+    grid-template-areas:
+    "content-1 price-1 time-1 order-1"
+    "content-2 price-2 time-2 order-2"
+    "content-3 price-3 time-3 order-3"
+    "content-4 price-4 time-4 order-4"
+    "content-5 price-5 time-5 order-5";
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    padding: 0 25px;
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+.content-1 {
+    grid-area: content-1;
+}
+
+.content-2 {
+    grid-area: content-2;
+}
+
+.content-3 {
+    grid-area: content-3;
+}
+
+.content-4 {
+    grid-area: content-4;
+}
+
+.content-5 {
+    grid-area: content-5;
+}
+
+.price-1 {
+    grid-area: price-1;
+}
+
+.price-2 {
+    grid-area: price-2;
+}
+
+.price-3 {
+    grid-area: price-3;
+}
+
+.price-4 {
+    grid-area: price-4;
+}
+
+.price-5 {
+    grid-area: price-5;
+}
+
+.time-1 {
+    grid-area: time-1;
+}
+
+.time-2 {
+    grid-area: time-2;
+}
+
+.time-3 {
+    grid-area: time-3;
+}
+
+.time-4 {
+    grid-area: time-4;
+}
+
+.time-5 {
+    grid-area: time-5;
+}
+
+.order-1 {
+    grid-area: order-1;
+}
+
+.order-2 {
+    grid-area: order-2;
+}
+
+.order-3 {
+    grid-area: order-3;
+}
+
+.order-4 {
+    grid-area: order-4;
+}
+
+.order-5 {
+    grid-area: order-5;
+}
+
+.row1 {
+    align-self: end;
+}
+
+.row2 {
+    padding-bottom: 20px;
+    align-items: end;
+    align-self: end;
+}
+
+.row3 {
+    max-width: 100vw ;
+    align-self: end;
+    padding-left: 100px;
+    padding-bottom: 15px;
+}
+
+.bot-line {
+    border-bottom: solid 1px #EAEAEA;
+}
+
+.table-img {
+    display: flex;
+    align-items: end;
+    transition: opacity 0.4s ease-in-out;
+    margin-left: auto;
+}
+
+.table-img:hover {
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.main__pride__descr{
+    width: 70% ;
+    margin: 20px 30px;
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.main__price__get {
+    margin: 0 30px;
+    font-size: 16px;
+    font-weight: medium;
+    color: #1B1C21;
+    font-family: 'TT Lakes medium';
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.more-arrow {
+    position: relative;
+    top: 7px;
+}
+
