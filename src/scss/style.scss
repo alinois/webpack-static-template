@@ -1,7 +1,7 @@
 @import '../../node_modules/swiper/swiper-bundle.css';
 @import '../../node_modules/swiper/modules/pagination.css';
 
-@import 'fonts.css';
+
 @import 'header.css';
 @import 'side-menu.css';
 @import 'main.css';
@@ -12,3 +12,30 @@
 @import 'footer.css';
 @import 'media.css';
 @import 'base.css';
+@import 'fonts.css';
+
+@font-face {
+  font-family: 'TT Lakes bold';
+  src: url('../fonts/TTLakes-Bold.woff2') format('woff2'),
+      url('../fonts/TTLakes-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TT Lakes regular';
+  src: url('../fonts/TTLakes-Regular.woff2') format('woff2'),
+      url('../fonts/TTLakes-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TT Lakes medium';
+  src: url('../fonts/TTLakes-Medium.woff') format('woff');
+  font-weight: medium;
+  font-style: normal;
+  font-display: swap;
+}
