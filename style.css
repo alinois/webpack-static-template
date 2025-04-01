@@ -919,31 +919,6 @@ button.swiper-pagination-bullet {
   display: none;
 }
 
-@font-face {
-    font-family: 'TT Lakes bold';
-    src: url('/src/fonts/TTLakes-Bold.woff2') format('woff2'),
-        url('/src/fonts/TTLakes-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'TT Lakes regular';
-    src: url('/src/fonts/TTLakes-Regular.woff2') format('woff2'),
-        url('/src/fonts/TTLakes-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'TT Lakes medium';
-    src: url('/src/fonts/TTLakes-Medium.woff') format('woff');
-    font-weight: medium;
-    font-style: normal;
-    font-display: swap;
-}
 header {
     position:relative;
     z-index: 2;
@@ -1486,7 +1461,7 @@ main {
 }
 
 .arrow-next {
-    background-image: url("/src/img/icons/go.svg");
+    background-image: url(./static/go.svg);
     width: 25%;
     height: 100%;
     background-repeat: no-repeat;
@@ -1500,37 +1475,37 @@ main {
 }
 
 .lenovo {
-    background-image: url("/src/img/br-log/lenovo.png");
+    background-image: url(./static/lenovo.png);
 }
 
 .samsung {
-    background-image: url("/src/img/br-log/samsung.png");
+    background-image: url(./static/samsung.png);
 }
 
 .apple {
-    background-image: url("/src/img/br-log/apple.png");
+    background-image: url(./static/apple.png);
     background-size: 40%;
 }
 
 .vs {
-    background-image: url("/src/img/br-log/ViewSonic.png");
+    background-image: url(./static/ViewSonic.png);
 }
 
 .bosch {
-    background-image: url("/src/img/br-log/bosch.png");
+    background-image: url(./static/bosch.png);
 }
 
 .hp {
-    background-image: url("/src/img/br-log/hp.png");
+    background-image: url(./static/hp.png);
     background-size: 50%;
 }
 
 .acer {
-    background-image: url("/src/img/br-log/acer.png");
+    background-image: url(./static/acer.png);
 }
 
 .sony {
-    background-image: url("/src/img/br-log/sony.png");
+    background-image: url(./static/sony.png);
 }
 
 .sony-slide {
@@ -2474,6 +2449,26 @@ a:hover {
 
 
 
+@font-face {
+  font-family: 'TT Lakes bold';
+  src: url(./fonts/TTLakes-Bold.woff2) format("woff2"), url(./fonts/TTLakes-Bold.woff) format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'TT Lakes regular';
+  src: url(./fonts/TTLakes-Regular.woff2) format("woff2"), url(./fonts/TTLakes-Regular.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'TT Lakes medium';
+  src: url(./fonts/TTLakes-Medium.woff) format("woff");
+  font-weight: medium;
+  font-style: normal;
+  font-display: swap; }
 
 
 /*# sourceMappingURL=style.css.map*/
